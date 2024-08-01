@@ -12,24 +12,7 @@ with open("model1.pkl","rb") as f:
     bow = pickle.load(f)
 
 st.image("th.jpeg")
-st.markdown("""
-    <style>
-    body {
-        background-color: #f0f0f0; /* Change to your desired color */
-    }
-    .stTextInput input {
-        color: pink;
-    }
-    .stHeader h1 {
-        
-        color:green;
-    }
-    .stButton button {
-        background-color:black; /* Change to your desired button color */
-        color: white;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+
 st.header("EMAIL SPAM OR HAM")
 #st.title("Email Spam/Ham Classifier")
 
