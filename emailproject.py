@@ -18,7 +18,7 @@ st.markdown("""
         background-color: #f0f0f0; /* Change to your desired color */
     }
     .stTextInput input {
-        color: brown;
+        color: pink;
     }
     .stHeader h1 {
         
