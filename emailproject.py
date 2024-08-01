@@ -11,7 +11,7 @@ model = pickle.load(open("model.pkl","rb"))
 with open("model1.pkl","rb") as f:
     bow = pickle.load(f)
 
-st.image("th.jpeg")
+st.image("innomatics-footer-logo.webp")
 
 st.header("EMAIL SPAM OR HAM")
 #st.title("Email Spam/Ham Classifier")
